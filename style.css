@@ -1,0 +1,380 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+.bg-color{
+    background-color: black;
+}
+
+.menubar{
+    display: flex;
+    position: fixed;
+    background-color: black;
+    padding: 10px 50px;
+    justify-content: space-between;
+    color: white;  
+    width: 100%;
+  }
+
+.links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.links li{
+    display: inline;
+}
+
+.links a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    font-size: 1.5rem;
+
+}
+ .links a:hover{
+  color: red;
+}
+.header-btn:hover{
+  background-color: white;
+}
+.my-img{
+  border-radius: 40px 10px 40px 10px;
+}
+
+.header-btn{
+    padding: 10px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: red;
+    margin-right: 50px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* Home  */
+
+.hero{
+    display: flex;
+    gap: 400px;
+    align-items: center;
+    min-height: 70vh;
+    padding: 40px;
+}
+.hero-text {
+  max-width: 600px;
+}
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  color: white;
+}
+
+.hero-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  padding: 0 15px;
+  color: white;
+}
+.btn {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 12px 15px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn.green {
+  background-color:red;
+  color: black;
+  border: 2px solid white;
+}
+.btn.outline {
+  border: 1px solid white;
+  color: white;
+}
+.btn.outline:hover{
+  background-color: red;
+}
+.btn.green:hover{
+  background-color: white;
+}
+
+/* About me*/
+
+
+
+.about-container {
+  display: flex;
+  gap: 40px;
+  background-color: white;
+  border-radius: 20px;
+  width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content:center;
+}
+.about-img {
+  width: 400px;
+  height: 600px;
+  border-radius: 15px;
+  padding-top: 270px;
+}
+.about-content {
+  flex: 1;
+}
+.about-content h4 {
+  color: black;
+  margin-bottom: 100px;
+  font-weight: bold;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+.about-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: red;
+}
+.about-content p {
+  color: black;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-size: 1.3rem;
+}
+.about-details {
+  margin-bottom: 30px;
+}
+.about-details p {
+  margin: 8px 0;
+}
+.about-details strong {
+  width: 80px;
+  display: inline-block;
+  color: #000;
+}
+.btn-download {
+  background-color: red;
+  color: black;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  border: 2px solid black;
+}
+
+.btn-download:hover {
+  background-color: white;
+}
+  
+.about-img img {
+  width: 350px;
+  margin-right: 90%; 
+  height: auto; 
+}
+  
+.about-details p {
+  text-align: left;
+}
+
+
+/* Service  */
+
+.service-h1{
+  margin-top: 5%;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 2rem;
+}
+.card{
+  background-color: black;
+  border-radius: 20px;
+  width: 300px;
+  height: 400px;
+  margin-top: 100px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-container{
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+.card-icon{
+ font-size: 5rem;
+padding: 70px 0;
+border-radius: 100%;
+}
+.card:hover{
+  background-color: red;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/* Skills  */
+
+.skill-container{
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.skill-h2{
+  text-align: center;
+  margin-top: 10%;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.skill-name{
+  text-align: left;
+  font-size: 1.5rem;
+  width: 70%;
+  
+}
+.bar {
+  height: 8px;
+  background: gray;
+  border-radius: 50px;
+  
+}
+
+.fill {
+  height: 8px;
+  border-radius: 50px;
+  position: relative;
+  background-color: red;
+}
+
+.fill span {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* project */
+
+.pjt-h2{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 150px;
+  text-decoration: underline;
+}
+.pjt-h3{
+  text-align: center;
+  color: red;
+  margin-top: 30px;
+}
+.pjt-card{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.pjt-container{
+  width: 300px;
+  height: 300px;
+  margin: 50px;
+  margin-top: 50px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  transition: transform 0.3s ease,box-shadow 0.3s ease;
+}
+.pjt-container:hover{
+  background-color: red;
+  transform:scale(1.05);
+  cursor: pointer;
+}
+.pjt-p{
+  text-align: center;
+  font-size: 2rem;
+  padding: 130px 0;
+}
+
+/* Contact */
+
+.ctt-h2{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 90px;
+  text-decoration: underline;
+}
+.ctt-h3{
+  text-align: center;
+  font-size: 1.5rem;
+  color: red;
+}
+.ctt-container{
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+input, textarea{
+  width: 100%;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 1rem;
+}
+.ctt-button{
+  font-size: 23px;
+  width: 130px;
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.ctt-button:hover{
+  background-color: red;
+  cursor: pointer;
+  transform: scale(1.05);
+
+}
+
+/* footer section */
+
+.footer-container{
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 200px;
+  padding: 50px 0;
+  font-size: 1.3rem;
+}
+.footer-icon{
+display: flex;
+justify-content: center;
+gap: 5px;
+font-size: 40px;
+color: white;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+ .footer-icon i:hover{
+  color: red;
+  cursor: pointer;
+  transform: scale(1.20);
+}
+
