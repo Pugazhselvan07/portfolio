@@ -377,11 +377,16 @@ font-size: 40px;
 color: white;
 transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.footer-icon i {
+  color: white; 
+  transition: color 0.3s ease, transform 0.3s ease;
+}
  .footer-icon i:hover{
   color: red;
   cursor: pointer;
   transform: scale(1.20);
 }
+
 
 
 
