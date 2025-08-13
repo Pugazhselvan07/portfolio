@@ -300,7 +300,8 @@ border-radius: 100%;
   transition: transform 0.3s ease,box-shadow 0.3s ease;
 }
 .pjt-container:hover{
-  background-color: red;
+/*   background-color: red; */
+    border-color:red
   transform:scale(1.05);
   cursor: pointer;
 }
@@ -380,6 +381,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
   transform: scale(1.20);
 }
+
 
 
 
