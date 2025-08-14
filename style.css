@@ -16,7 +16,7 @@ body{
     justify-content: space-between;
     color: white;  
     width: 100%;
-    z-index:100;
+    z-index: 1;
   }
 
 .links{
@@ -221,11 +221,9 @@ padding: 70px 0;
 border-radius: 100%;
 }
 .card:hover{
-/*   background-color: red; */
-  border-color:red
+  background-color: gray;
   cursor: pointer;
   transform: scale(1.05);
-  
 }
 
 /* Skills  */
@@ -300,16 +298,35 @@ border-radius: 100%;
   transition: transform 0.3s ease,box-shadow 0.3s ease;
 }
 .pjt-container:hover{
-/*   background-color: red; */
-    border-color:red
+  background-color:gray;
   transform:scale(1.05);
   cursor: pointer;
-  transform: scale(1.05);
 }
-.pjt-p{
+.pjt-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: white;
+  margin-left: 20px;
   text-align: center;
-  font-size: 2rem;
-  padding: 130px 0;
+  padding-top: 30px;
+}
+.pjt-description {
+  color: #222;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.pjt-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  margin-left: 80px;
 }
 
 /* Contact */
@@ -377,19 +394,9 @@ font-size: 40px;
 color: white;
 transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.footer-icon i {
-  color: white; 
-  transition: color 0.3s ease, transform 0.3s ease;
-}
  .footer-icon i:hover{
   color: red;
   cursor: pointer;
   transform: scale(1.20);
 }
-
-
-
-
-
-
 
