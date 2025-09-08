@@ -255,6 +255,7 @@ body{
   transform: scale(1.03);
 }
 
+
 /* Skills  */
 
 .skill-container{
@@ -272,14 +273,12 @@ body{
 .skill-name{
   text-align: left;
   font-size: 1.5rem;
-  width: 70%;
-  
+  width: 70%;  
 }
 .bar {
   height: 8px;
   background: gray;
-  border-radius: 50px;
-  
+  border-radius: 50px;  
 }
 
 .fill {
@@ -441,15 +440,9 @@ font-size: 40px;
 color: white;
 transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.footer-icon a{
-    color:white;
-}
-
  .footer-icon i:hover{
   color: red;
   cursor: pointer;
   transform: scale(1.20);
 }
-
-
 
